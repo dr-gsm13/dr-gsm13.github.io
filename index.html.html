@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Réparation express de smartphones par colis en France. Écrans, batteries, dégâts des eaux - Garantie 1 an.">
+<meta name="keywords" content="réparation smartphone, écran cassé, batterie, dégâts eau">
+<title>Dr.GSM - Réparation Express de Smartphones | Service par Colis</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<!-- Navigation Premium -->
+<nav>
+<div class="container">
+<div class="nav-container">
+<a href="#" class="logo">Dr.<span class="logo-accent">GSM</span></a>
+<div class="nav-links">
+<a href="#services">Services</a>
+<a href="#formulaire">Réparation</a>
+<a href="#suivi">Processus</a>
+<a href="#avis">Avis</a>
+<a href="#contact">Contact</a>
+</div>
+<button class="mobile-menu-btn" aria-label="Menu" aria-expanded="false">
+<i class="fas fa-bars"></i>
+</button>
+</div>
+</div>
+</nav>
+
+<!-- Menu Mobile -->
+<div class="mobile-menu">
+<div class="container">
+<div class="mobile-menu-links">
+<a href="#services">Services</a>
+<a href="#formulaire">Réparation</a>
+<a href="#suivi">Processus</a>
+<a href="#avis">Avis</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+</div>
+
+<!-- Bannière de Confiance -->
+<div class="trust-banner">
+<div class="container">
+<p>Service professionnel avec garantie 1 an</p>
+<div class="trust-items">
+<div class="trust-item">
+<i class="fas fa-check-circle"></i>
+<span>Réparations certifiées</span>
+</div>
+<div class="trust-item">
+<i class="fas fa-clock"></i>
+<span>Ouvert 7j/7</span>
+</div>
+<div class="trust-item">
+<i class="fas fa-star"></i>
+<span>98% de satisfaction</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Hero Section -->
+<header>
+<div class="container">
+<h1>Réparation Express de Smartphones</h1>
+<p class="subtitle">Service par colis dans toute la France - Réparations réalisées par des experts en 24-48h</p>
+<a href="#formulaire" class="btn btn-accent">
+Réparer mon smartphone
+<i class="fas fa-arrow-right" style="margin-left: 10px;"></i>
+</a>
+</div>
+</header>
+
+<!-- Section Services -->
+<section id="services" class="services-section">
+<div class="container">
+<h2>Nos Services Experts</h2>
+<p>Des réparations réalisées avec des composants premium et une garantie d'un an</p>
+
+<div class="services-grid">
+<div class="service-card">
+<div class="service-icon">
+<i class="fas fa-mobile-alt"></i>
+</div>
+<h3>Écrans cassés</h3>
+<p>Remplacement d'écran avec des composants haute qualité pour retrouver un affichage parfait</p>
+</div>
+
+<div class="service-card">
+<div class="service-icon">
+<i class="fas fa-battery-full"></i>
+</div>
+<h3>Batteries</h3>
+<p>Remplacement de batterie pour retrouver une autonomie comme neuve</p>
+</div>
+
+<div class="service-card">
+<div class="service-icon">
+<i class="fas fa-tint"></i>
+</div>
+<h3>Dégâts des eaux</h3>
+<p>Nettoyage et réparation des appareils ayant subi un contact avec l'eau</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Formulaire Expert -->
+<section id="formulaire" class="form-section">
+<div class="container">
+<div class="form-container">
+<div class="form-header">
+<h2>Demande de Réparation</h2>
+<p>Remplissez ce formulaire pour obtenir un diagnostic gratuit et sans engagement</p>
+</div>
+
+<form id="repair-form" action="https://formspree.io/f/mjkogkyp" method="POST" enctype="multipart/form-data">
+<div style="position: absolute; left: -5000px;" aria-hidden="true">
+<input type="text" name="_gotcha" tabindex="-1">
+</div>
+<input type="hidden" name="_language" value="fr">
+<input type="hidden" name="_subject" value="Nouvelle demande de réparation">
+
+<div class="form-grid">
+<div class="form-group">
+<label for="nom">Nom complet</label>
+<input type="text" id="nom" name="nom" required placeholder="Votre nom complet" autocomplete="name">
+</div>
+
+<div class="form-group">
+<label for="email">Adresse email</label>
+<input type="email" id="email" name="email" required placeholder="Votre email" autocomplete="email">
+</div>
+
+<div class="form-group">
+<label for="telephone">Téléphone</label>
+<input type="tel" id="telephone" name="telephone" pattern="[0-9]{10}" title="10 chiffres sans espaces" required placeholder="Votre numéro de téléphone" autocomplete="tel">
+</div>
+
+<div class="form-group">
+<label for="marque">Marque du téléphone</label>
+<select id="marque" name="marque" required>
+<option value="">Sélectionnez une marque</option>
+<option>iPhone</option>
+<option>Samsung</option>
+<option>Huawei</option>
+<option>Google Pixel</option>
+<option>Xiaomi</option>
+<option>Autre</option>
+</select>
+</div>
+
+<div class="form-group">
+<label for="modele">Modèle exact</label>
+<input type="text" id="modele" name="modele" required placeholder="Ex: iPhone 12 Pro">
+</div>
+
+<div class="form-group">
+<label for="probleme">Problème rencontré</label>
+<select id="probleme" name="probleme" required>
+<option value="">Sélectionnez un problème</option>
+<option>Écran cassé</option>
+<option>Problème de batterie</option>
+<option>Ne charge plus</option>
+<option>Contact avec l'eau</option>
+<option>Autre problème</option>
+</select>
+</div>
+
+<div class="form-group full-width">
+<label>Photo du téléphone (facultatif mais recommandé)</label>
+<div class="file-upload" onclick="document.getElementById('file-upload').click()">
+<i class="fas fa-camera"></i>
+<p>Ajouter une photo du problème</p>
+<small>Cliquez pour sélectionner une image (JPG/PNG - max 5MB)</small>
+<input type="file" id="file-upload" name="photo" accept="image/*" style="display:none;">
+</div>
+</div>
+
+<div class="form-group full-width">
+<label for="description">Description détaillée</label>
+<textarea id="description" name="description" placeholder="Décrivez en détails le problème rencontré, les circonstances, etc." required></textarea>
+</div>
+</div>
+
+<button type="submit" class="btn btn-accent" style="width: 100%; margin-top: 10px;">
+Envoyer ma demande
+<i class="fas fa-paper-plane" style="margin-left: 10px;"></i>
+</button>
+</form>
+</div>
+</div>
+</section>
+
+<!-- Suivi de Réparation Expert -->
+<section id="suivi" class="tracking-section">
+<div class="container">
+<div class="tracking-container">
+<h2>Notre Processus de Réparation</h2>
+<p>Un service transparent et professionnel à chaque étape</p>
+
+<div class="tracking-steps">
+<div class="step">
+<div class="step-icon">
+<i class="fas fa-box-open"></i>
+</div>
+<div class="step-content">
+<div class="step-title">1. Envoi du téléphone</div>
+<p>Emballez votre appareil dans une boîte solide avec protection (papier bulle, mousse). Utilisez de préférence un transporteur avec suivi (Colissimo, Chronopost).</p>
+</div>
+</div>
+
+<div class="step">
+<div class="step-icon">
+<i class="fas fa-search"></i>
+</div>
+<div class="step-content">
+<div class="step-title">2. Diagnostic Express</div>
+<p>Dès réception, nous analysons votre appareil sous 24h et vous envoyons un devis détaillé par email avec les options de réparation.</p>
+</div>
+</div>
+
+<div class="step">
+<div class="step-icon">
+<i class="fas fa-tools"></i>
+</div>
+<div class="step-content">
+<div class="step-title">3. Réparation Certifiée</div>
+<p>Après votre accord, nos techniciens effectuent la réparation avec des composants premium dans notre atelier équipé.</p>
+</div>
+</div>
+
+<div class="step">
+<div class="step-icon">
+<i class="fas fa-shipping-fast"></i>
+</div>
+<div class="step-content">
+<div class="step-title">4. Retour Express</div>
+<p>Votre appareil réparé est testé, nettoyé et renvoyé sous 48h avec une garantie 1 an sur la réparation.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Avis Clients -->
+<section id="avis" class="reviews-section">
+<div class="container">
+<div class="reviews-container">
+<h2>Ils nous ont fait confiance</h2>
+<p>Découvrez ce que nos clients disent de notre service</p>
+
+<div class="reviews">
+<div class="review">
+<div class="review-stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<p>"Service rapide et professionnel. Mon iPhone a été réparé en moins de 48h avec une qualité irréprochable. La garantie 1 an est un vrai plus qui m'a rassuré."</p>
+<div class="review-author">
+<div class="author-avatar">M</div>
+<div>
+<div class="author-name">Marie D.</div>
+<div class="author-detail">iPhone 12 Pro</div>
+</div>
+</div>
+</div>
+
+<div class="review">
+<div class="review-stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<p>"J'ai été impressionné par la transparence du service. Diagnostic clair, devis précis et réparation rapide. Mon Samsung est comme neuf !"</p>
+<div class="review-author">
+<div class="author-avatar">T</div>
+<div>
+<div class="author-name">Thomas L.</div>
+<div class="author-detail">Samsung S21</div>
+</div>
+</div>
+</div>
+
+<div class="review">
+<div class="review-stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<p>"Excellente communication à chaque étape. J'ai reçu des photos du diagnostic et des explications claires. Je recommande sans hésiter !"</p>
+<div class="review-author">
+<div class="author-avatar">S</div>
+<div>
+<div class="author-name">Sophie R.</div>
+<div class="author-detail">Google Pixel 6</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Section Réseaux Sociaux -->
+<section class="social-section">
+<div class="container">
+<h2>Suivez notre actualité</h2>
+<p>Découvrez nos dernières réparations et conseils d'entretien</p>
+
+<div class="social-links">
+<a href="https://instagram.com/dr.gsm13" class="social-link instagram" target="_blank" aria-label="Instagram">
+<i class="fab fa-instagram"></i>
+</a>
+<a href="https://tiktok.com/@dr.gsm13" class="social-link tiktok" target="_blank" aria-label="TikTok">
+<i class="fab fa-tiktok"></i>
+</a>
+<a href="https://snapchat.com/add/drgsm13" class="social-link snapchat" target="_blank" aria-label="Snapchat">
+<i class="fab fa-snapchat-ghost"></i>
+</a>
+</div>
+</div>
+</section>
+
+<!-- Footer Professionnel -->
+<footer id="contact">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-column">
+<h3>Dr.GSM</h3>
+<p style="color: #aaa; margin-bottom: 20px;">Service de réparation premium de smartphones par colis dans toute la France.</p>
+<div class="contact-info">
+<p><i class="fas fa-envelope"></i> dr.gsm13110@gmail.com</p>
+<p><i class="fas fa-phone-alt"></i> 07 69 71 94 67</p>
+<p><i class="fas fa-clock"></i> Ouvert 7j/7</p>
+</div>
+</div>
+
+<div class="footer-column">
+<h3>Services</h3>
+<ul class="footer-links">
+<li><a href="#services">Réparation d'écran</a></li>
+<li><a href="#services">Remplacement de batterie</a></li>
+<li><a href="#services">Problèmes de charge</a></li>
+<li><a href="#services">Dégâts des eaux</a></li>
+<li><a href="#services">Déblocage smartphone</a></li>
+</ul>
+</div>
+
+<div class="footer-column">
+<h3>Informations</h3>
+<ul class="footer-links">
+<li><a href="#contact">FAQ</a></li>
+<li><a href="#contact">Mentions légales</a></li>
+<li><a href="#contact">CGV</a></li>
+<li><a href="#contact">Confidentialité</a></li>
+<li><a href="#contact">Garanties</a></li>
+</ul>
+</div>
+</div>
+
+<div class="footer-bottom">
+<p>© 2023 Dr.GSM - Tous droits réservés</p>
+</div>
+</div>
+</footer>
+
+<!-- Loader -->
+<div class="loader">
+<div class="loader-spinner"></div>
+<p>Traitement en cours...</p>
+</div>
+</body>
+</html>
